@@ -40,6 +40,6 @@ def salario_liquido(lista):
             desc = sal - (sal * 0.20)
             return desc
     else:
-        raise TypeError
+        return raise TypeError
         
 
