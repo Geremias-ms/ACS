@@ -1,5 +1,5 @@
 # GEREMIAS MARTINS DOS SANTOS RA:1901844
-# NATALIA
+# NATALIA DE JESUS DOS SANTOS RA:1901922
 
 import ac02
 
@@ -67,8 +67,8 @@ try:
     lista = ["Marcílio Santos", "marcilio@email.com", "Analista", 5100.00]
     test = ac02.salario_liquido(lista)
     assert test == 4080.00
-    print("Teste Gerente: Correto")
+    print("Teste: Correto")
 except AssertionError:
-    print("Teste Gerente: Erro")
+    print("Teste: Erro")
     print("Retorno: ", test)
     print("Esperado: ", 4080.00)
