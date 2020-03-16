@@ -7,7 +7,7 @@ try:
     lista = ["Marcílio Santos", "marcilio@email.com", "DESENVOLVEDOR", 5000.00]
     test = ac02.salario_liquido(lista)
     assert test == 4000.00
-    print("Teste 1 Desnvolvedor: Correto")
+    print("Teste 1 Desenvolvedor: Correto")
 except AssertionError:
     print("Teste 1 Desenvolvedor: Erro")
     print("Retorno: ", test)
